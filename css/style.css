@@ -124,6 +124,31 @@ header {
     height: 800px;
 }
 
+/* LAST SECTION */
+.last-section {
+    min-height: 600px;
+}
+
+.last-container {
+    width: 1200px;
+    height: 550px;
+    display: flex;
+}
+
+.last-big-container {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.last-small-container {
+    width: 18.75%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+
+
 
 
 
@@ -200,6 +225,21 @@ header {
 
 .debug .fifth-container {
     background-color: #228b22;
+    border: 2px dashed black; 
+}
+
+/* LAST-SECTION */
+.debug .last-section {
+    background-color: #23272a;
+}
+
+.debug .last-big-container{
+    background-color: #f08080;
+    border: 2px dashed black; 
+}
+
+.debug .last-small-container {
+    background-color: #20b2aa;
     border: 2px dashed black; 
 }
 
