@@ -5,15 +5,19 @@
     box-sizing: border-box;
 }
 
+/* REGOLE GENERALI */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* STRUTTURA HEADER */
 header {
     min-height: 70px;
 }
 
 .container-header {
-    margin: 0 auto;
     min-height: 70px;
-    max-width: 1200px;
     display: flex;
     align-items: center;
 }
@@ -29,6 +33,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .link {
@@ -56,6 +61,19 @@ header {
     justify-content: flex-end; 
 }
 
+/* MAIN */
+/*  FIRST SECTION */
+.first-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.first-container {
+    width: 900px;
+    height: 400px;
+}
+
 
 
 
@@ -64,23 +82,36 @@ header {
 
 
 /* DEBUG */
+
+/* --- DEBUG - HEADER --- */
 .debug header {
     background-color: #add8e6;
 }
 
 .debug .logo {
     background-color: #daa520;
-    border: 1px dashed black; 
+    border: 2px dashed black; 
 }
 
 .debug .link {
     background-color: #daa520;
-    border: 1px dashed black;    
+    border: 2px dashed black;    
 }
 
 .debug .login {
     background-color: #daa520;
-    border: 1px dashed black; 
+    border: 2px dashed black; 
+}
+
+/* --- DEBUG - MAIN --- */
+/* FIRST SECTION */
+.debug .first-section {
+    background-color: #00008b;
+}
+
+.debug .first-container {
+    border: 2px dashed black;
+    background-color: #ee82ee;
 }
 
 
