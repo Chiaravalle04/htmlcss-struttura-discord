@@ -64,6 +64,23 @@ header {
 
 /* --- STRUTTURA MAIN --- */
 
+/* CONTAINER SECTION INTERNI */
+.general-container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+
+.big-container {
+    width: 60%;
+    height: 100%;
+}
+
+.small-container {
+    width: 40%;
+    height: 100%;
+}
+
 /*  FIRST SECTION */
 .first-section {
     min-height: 500px;
@@ -81,22 +98,6 @@ header {
     min-height: 600px;
     display: flex;
     align-items: center;
-}
-
-.second-container {
-    width: 1200px;
-    height: 500px;
-    display: flex;
-}
-
-.big-container {
-    width: 60%;
-    height: 100%;
-}
-
-.small-container {
-    width: 40%;
-    height: 100%;
 }
 
 /*  THIRD SECTION */
@@ -215,10 +216,6 @@ footer {
 /* SECOND SECTION */
 .debug .second-section {
     background-color: #ffffff;
-}
-
-.debug .second-container {
-    background-color: #1e90ff;
 }
 
 .debug .big-container {
