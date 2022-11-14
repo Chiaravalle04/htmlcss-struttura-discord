@@ -112,6 +112,18 @@ header {
     align-items: center;
 }
 
+/*  FIFTH SECTION */
+.fifth-section {
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.fifth-container {
+    width: 1200px;
+    height: 800px;
+}
+
 
 
 
@@ -181,6 +193,15 @@ header {
     background-color: #ffffff;
 }
 
+/* FIFTH SECTION */
+.debug .fifth-section {
+    background-color: #d3d3d3;
+}
+
+.debug .fifth-container {
+    background-color: #228b22;
+    border: 2px dashed black; 
+}
 
 
 
