@@ -26,15 +26,11 @@ header {
 .logo, .login {
     width: 25%;
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    line-height: 40px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    text-align: left;
 }
 
 .link {
@@ -57,9 +53,7 @@ header {
 }
 
 .login {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end; 
+    text-align: right;
 }
 
 /* --- STRUTTURA MAIN --- */
