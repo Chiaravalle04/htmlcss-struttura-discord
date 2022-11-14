@@ -62,6 +62,7 @@ header {
 }
 
 /* STRUTTURA - MAIN */
+
 /*  FIRST SECTION */
 .first-section {
     min-height: 500px;
@@ -95,6 +96,13 @@ header {
 .small-container {
     width: 40%;
     height: 100%;
+}
+
+/*  THIRD SECTION */
+.third-section {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -154,6 +162,11 @@ header {
 .debug .small-container {
     background-color: #ffc0cb;
     border: 2px dashed black; 
+}
+
+/* THIRD SECTION */
+.debug .third-section {
+    background-color: #d3d3d3;
 }
 
 
